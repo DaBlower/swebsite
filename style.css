@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.pfp {
+    width: 20vw;
+    border-radius: 5%;
+}
+
+.info {
+    font-size: 2.2rem;
+}
+
+.homePrompt {
+    font-size: 1.6rem;
+}
+
+.goHome {
+    font-size: 2rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    padding-top: 4rem;
+}
