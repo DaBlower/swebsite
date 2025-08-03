@@ -6,6 +6,7 @@
 
 body {
     background-color: cadetblue;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,14 +76,11 @@ h1 {
 
 .project-card {
     background-color: aliceblue;
+    color: black;
     border-radius: 10px;
     padding: 2rem;
     max-width: 350px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.project-card:hover {
-    transform: translateY(-5px); /* move it down */
 }
 
 .project-card:active {
@@ -132,8 +130,3 @@ button {
 button:active{
     transform: scale(0.95);
 }
-
-button:focus {
-    outline: none;
-}
-
