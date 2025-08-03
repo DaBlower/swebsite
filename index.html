@@ -4,13 +4,54 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type= "text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>obob's website</title>
 </head>
 <body>
-    <h1>hi, I'm <a href="https://github.com/DaBlower">Oliver!</a></h1>
-    <p class="info">i'm a high school student in australia and i love to code!</p>
-    <img class="pfp" src="/pfp.png" alt="My profile picture!">
+    <h1>hi, I'm <a class="bold" href="https://github.com/DaBlower">Oliver!</a></h1>
+    <p class="info">i'm a high school student in Australia and i love to code!</p>
+    <button>
+        <img class="pfp" src="/pfp.png" alt="My profile picture!">
+    </button>
     <p class="info">I love hardware, mathematics and of course, programming!</p>
+
+    <div class="facts-left">
+        <img class="fact-image" src="python.png" alt="The python language logo">
+        <div>
+            <h2>Python is my most used programming language!</h2>
+            <p>I spend most of my time programming in this great language, but I do use others frequently (eg. C, C++ and TypeScript)</p>
+        </div>
+    </div>
+
+    <div class="facts-right">
+        <img class="fact-image" src="u-crawler.png" alt="u-cralwer's logo">
+        <div>
+            <h2>My favourite project of mine is <a href="https://github.com/DaBlower/u-cralwer">u-crawler!</a></h2>
+            <p>I made this in June of 2025, and it's basically a webcrawler that scrapes the University of New South Wales handbook (handbook.unsw.edu.au) and outputs every course and program into structured JSON files.</p>
+            <p>It uses BeuatifulSoup, requests and Selenium (I needed it to load javascript)</p>
+        </div>
+    </div>
+
+    <div class="facts-left">
+        <img src="kicad.png" alt="The kicad logo" class="fact-image">
+        <div>
+            <h2>I love making hardware!</h2>
+            <p>I started making PCBs in 2024, which got me into hardware.</p>
+            <p>So far, I have made lots of different things such as my <a href="https://DaBlower/treeBoard">treeBoard</a>, which is a device that you can play minigames on with 4 switches, 4 LEDs and multiplayer support (not online though D:)</p>
+        </div>
+    </div>
+
+    <h2>Here's a recap!</h2>
+    <ul>
+        <li>Python is my most used language!</li>
+        <l1>One of my favourite projects is <a href="https://github.com/DaBlower/u-cralwer">u-crawler</a></l1>
+        <li>I love hardware!</li>
+    </ul>
+
+    <br>
 
     <footer>
         <a href="#">
@@ -23,7 +64,7 @@
             <p>Contact me!</p>
         </a>
         <a href="https://github.com/DaBlower/swebsite">
-            <p></p>
+            <p>GitHub!</p>
         </a>
     </footer>
 </body>
