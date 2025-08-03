@@ -1,0 +1,2 @@
+# Swebsite
+Hello, this is a simple static personal website I made to showcase my projects and some facts about me. It is just plain HTML and CSS and you can view it here: [https://dablower.github.io/swebsite/](https://dablower.github.io/swebsite/)
